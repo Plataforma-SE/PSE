@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.banner{
+    width: 100%;
+    top: 50px;
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    top: 50px;
+}
+
+@media (min-width:768px){
+    .banner{
+        height: 450px;
+    }
+    #banner img {
+        height: auto;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:1024px){
+    .banner img {
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Monster Criminal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="description" content="Sitio web para practicar">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="Joshua Gonzalez Holtzheimer">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <input type="checkbox" id="menu-bar">
+                <label class="fa fa-bars" for="menu-bar" style="font-size:36px;color:rgb(185, 185, 185);"></label>
+                    <nav class="menu">
+                        <a href="index.html">Inicio</a>
+                        <a href="index.html">Diseño Web</a>
+                        <a href="index.html">Ilustración</a>
+                        <a href="index.html">Animación</a>
+                    </nav>
+                </div>
+        </header>
+        <main>
+            <div class="banner">
+                <button id="b1" type="button" onclick="ocultar()">Off
+                </button>
+                <button id="b2" type="button" style="display:none" onclick="mostrar()">Off
+                </button>
+                <img id="ban" src="img/banner1.png">
+                <div class="anterior" onclick="anterior()"><i class="fa fa-arrow-left"></i></div>
+                <div class="siguiente" onclick="siguiente()"><i class="fa fa-arrow-right"></i></div>
+            </div>
+        </main>
+    </body>
+</html>
